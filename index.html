@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <script src="/scripts/main.js" defer type="module"></script>
+    <script src="/scripts/songs.js" defer></script>
+</head>
+<body>
+    <header class="flex container">
+        <div class="logo flex">
+            <a href="/index.html"><img src="/assets/logo.png" alt=""></a>
+            <span>Music</span>
+        </div>
+        <nav>
+            <ul class="flex">
+                <li><a href="/pages/account.html">Account</a></li>
+                <li><a href="/pages/music.html">Music</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <div class="hero container">
+        <div class="main-player">
+            <audio src=""></audio>
+            <div class="player flex">
+                <div class="control">&#9654;</div>
+                <div class="info">Mpiso ku Mpiso - Sweet_Nyc feat Ohh_Two</div>
+                <div class="bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="time">
+                    <span class="current center">00:00</span><br><span class="end">3:14</span>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <div class="more-music container">
+        <form action="" class="search">
+            <input type="search" name="search" id="search" placeholder="Search ...">
+            <button type="submit">search</button>
+        </form>
+        <div class="flex more">
+            <a href="/pages/music.html">More Music</a>
+        </div>
+       </div>
+
+       <div class="home-about">
+        <div class="top"></div>
+        <div class="content container">
+            <p>We are a Music expression group Part of the all skills legitAB Media Group</p>
+            <p>This is our play ground were we present our content for the General public to see and rate US. ENJOY</p>
+            <a href="/pages/about.html">About Us</a>
+        </div>
+        <div class="bottom"></div>
+       </div>
+
+       <div class="home-account">
+        <div class="container">
+            <p>Want to be Part of the family, UR WELCONE, <a>Create an account</a> with us to get started</p>
+            <a href="">CREATE ACCOUNT</a>
+        </div>
+        <div class="container">
+            <p>Do U already <a>have an Account</a> then Login</p>
+            <a href="">LOGIN</a>
+        </div>
+       </div>
+    </main>
+
+    <footer class="flex container">
+        <div class="footer-logo">
+            <a href="/index.html"><img src="/assets/logo.png" alt=""></a>
+        </div>
+        <div class="flex column flexstart">
+            <p>Made with LOVE by legitAB media, All Rights Reserved <time>2023</time></p>
+            <div class="footer-links">
+                <div class="websites">
+                    <a href="">masalex8.com</a>
+                    <a href="">creativeArts.co</a>
+                </div>
+                <div class="support-us">
+                    <a href="">Donate</a>
+                    <a href="">Suggest</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
